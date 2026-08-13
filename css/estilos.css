@@ -1,0 +1,78 @@
+ header {
+      background-color: #C44262;
+      text-align: center;
+               }
+
+      .logo h1 {
+      font-family: Montserrat, sans-serif;
+      font-size: 42px;
+      color: #ffffff;
+      margin: 0;
+       }
+
+      .logo p {
+      font-family: Roboto, sans-serif;
+      font-size: 20px;
+      color: #ffffff;
+      margin-top: 5px;       
+       }     
+
+   nav {
+    width:100%;
+    text-align:center;
+    background-color:#C44262;
+   }
+
+   nav a {
+      display: inline-block;
+      margin: 5px; /* Cambia el ancho del fondo del Menu */
+      padding: 12px 20px;
+      background-color: #222; /* color oscuro para el fondo del botón */
+      color: #ffffff;
+      font-family: Montserrat, sans-serif; /* Montserrat es el texto principal, si falla va cargar sans-serif */
+      font-size: 1.1em;
+      text-decoration: none; /* Esto quita el subrayado del enlace */
+      border-radius: 6px; /* bordes redondeados */
+      transition: background-color 0.3s, color 0.3s;
+      }
+
+     nav a:hover {
+      color: #ffffff; /* Color del texto al pasar el cursor */
+      background-color: red;
+      }
+
+
+   label {
+    padding:30px;
+    font-size:2em;
+   }
+
+   body {
+    background-image:url(../img/fondoperrosygatos.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+   section {
+   background-color:white;
+   color: #000000;
+   width:60%;
+   margin:30px auto;
+   margin-top:30px;
+   font-size:20px;
+   padding: 20px;
+   border-radius: 10px;
+   text-align:justify;
+   font-family: Roboto, sans-serif;
+   }
+
+   .centrar {
+   text-align:center;
+   }
+
+   .centrar img {
+   width: 600px;
+   padding: 50px;
+   }
+   
