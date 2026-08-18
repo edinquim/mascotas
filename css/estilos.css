@@ -90,4 +90,10 @@ display: block;
 width: 90%; 
 margin: 10px auto; 
 } 
+
+section {
+width: 85%;
+font-size: 18 px;
+text-align: left;
+{
 }
