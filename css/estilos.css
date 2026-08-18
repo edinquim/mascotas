@@ -96,4 +96,8 @@ width: 85%;
 font-size: 18 px;
 text-align: left;
 {
+
+      .logo h1 {
+      font-size: 32px;
+       }
 }
