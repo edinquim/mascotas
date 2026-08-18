@@ -72,7 +72,22 @@
    }
 
    .centrar img {
-   width: 600px;
-   padding: 50px;
+   width: 100%;
+   max-width: 600px;
+   height: auto;
    }
+
+   .video {
+   width: 100%;
+   max-width: 560px;
+   aspect-ratio: 16 / 9;
+   border: none;
+}
    
+@media (max-width: 600px) { 
+nav a { 
+display: block; 
+width: 90%; 
+margin: 10px auto; 
+} 
+}
